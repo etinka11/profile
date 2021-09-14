@@ -1,0 +1,171 @@
+/*************Tags******************/
+
+body {
+  margin: 0 0 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.125rem;
+  margin: 0 0 0;
+  color: #F38BA0;
+
+}
+
+h2 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 500;
+  color: #B5EAEA;
+}
+
+hr {
+  border-style: none;
+  border-bottom: 8px dotted #B5EAEA;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0 0 0;
+  font-family: 'Helvetica',sans-serif;
+  color: #3d3d3d ;
+
+}
+
+
+/*************Classes******************/
+.div1 {
+  background-color: #B5EAEA;
+  height: 500px;
+  padding-top: 200px;
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+
+}
+
+.div2 {
+  position: relative;
+}
+
+.heading-content{
+  color: #F38BA0;
+  font-weight: 700;
+}
+.profile {
+  margin: auto;
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+
+}
+
+.cloud1 {
+  width: 10%;
+  position: absolute;
+  margin: -100px 0 0 150px;
+
+}
+
+.cloud2 {
+  position: absolute;
+  margin: 20px 0 0 -320px;
+
+}
+.mountain {
+
+  max-width: 400px;
+  position: static;
+  margin: 109px auto;
+
+
+}
+
+.profileImage {
+  border-style: solid;
+  border-color: #F38BA0;
+  border-width: 10px;
+  border-radius: 50%;
+  margin: auto;
+  width: 200px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block;
+
+}
+
+
+.computer {
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+
+}
+
+.chillies {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.message {
+  width: 50%;
+  margin: 30px auto 60px;
+}
+
+.bottom-container {
+  background-color: #F38BA0;
+  padding: 50px 0 20px;
+}
+
+.btn {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #F38BA0;
+   font-family: Arial;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 12px;
+   background-color: #FFFFFF;
+   border: solid #B5EAEA 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.btn:hover {
+   color: #FFFFFF;
+    background: #B5EAEA;
+    border-color: #F38BA0;
+    border: none;
+    text-decoration: none;
+}
+
+.footer-link {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.surname {
+  margin-top: 30px;
+}
